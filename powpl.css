@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0a0f1c, #1b2a41);
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-container {
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* 🛡️ Shield */
+.shield {
+  width: 180px;
+  height: 220px;
+  margin: auto;
+  background: linear-gradient(180deg, #1e3a8a, #0f172a);
+  border-radius: 100px 100px 40px 40px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* 🏏 Player (simple silhouette) */
+.player {
+  width: 60px;
+  height: 100px;
+  background: white;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  border-radius: 20px;
+  transform: rotate(-20deg);
+}
+
+/* 🔴 Ball */
+.ball {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  right: 30px;
+  box-shadow: 0 0 10px red;
+}
+
+/* Text */
+.logo-text {
+  font-size: 42px;
+  margin-top: 20px;
+}
+
+.power {
+  background: linear-gradient(45deg, #3b82f6, #60a5fa);
+  -webkit-background-cli: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play {
+  background: linear-gradient(45deg, #f97316, #ef4444);
+  -webkit-background-cli: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Sub text */
+.sub-text {
+  color: #ccc;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-top: 5px;
+}
